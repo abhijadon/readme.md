@@ -155,3 +155,85 @@ Example:
 इनमें लो-लेवल और हाई-लेवल दोनों की विशेषताएँ होती हैं।
 उदाहरण:
 - C भाषा
+
+---
+
+## Q7. What is the Difference Between Compiled and Interpreted Language?
+
+### Answer (English)
+
+### Compiled Language
+A compiled language converts the entire program into machine code before execution.
+
+Examples:
+- C
+- C++
+
+Characteristics:
+- Faster execution
+- Compilation required before running
+- Errors shown after full compilation
+
+### Interpreted Language
+An interpreted language executes the program line by line using an interpreter.
+
+Examples:
+- Python
+- JavaScript
+
+Characteristics:
+- No manual compilation required
+- Errors shown immediately
+- Slower than compiled languages
+
+---
+
+### उत्तर (Hindi)
+
+### कम्पाइल्ड लैंग्वेज
+कम्पाइल्ड लैंग्वेज पूरा प्रोग्राम पहले मशीन कोड में बदलती है, फिर execute करती है।
+उदाहरण:
+- C
+- C++
+
+### इंटरप्रेटेड लैंग्वेज
+इंटरप्रेटेड लैंग्वेज प्रोग्राम को लाइन-बाय-लाइन चलाती है।
+उदाहरण:
+- Python
+- JavaScript
+
+---
+
+## Q8. What is Python?
+
+### Answer (English)
+
+Python is a high-level, interpreted programming language known for its simplicity and readability.
+
+It was created by Guido van Rossum in 1991.
+
+Python is widely used in:
+- Web Development
+- Data Science
+- Artificial Intelligence
+- Machine Learning
+- Automation
+- Backend Development
+
+Python is easy to learn and has a large community support.
+
+---
+
+### उत्तर (Hindi)
+
+Python एक हाई-लेवल और इंटरप्रेटेड प्रोग्रामिंग लैंग्वेज है, जो अपनी सरलता और आसान syntax के लिए प्रसिद्ध है।
+
+इसे Guido van Rossum ने 1991 में बनाया था।
+
+Python का उपयोग इन क्षेत्रों में किया जाता है:
+- वेब डेवलपमेंट
+- डेटा साइंस
+- आर्टिफिशियल इंटेलिजेंस
+- मशीन लर्निंग
+- ऑटोमेशन
+- बैकएंड डेवलपमेंट
