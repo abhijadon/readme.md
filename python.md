@@ -237,3 +237,352 @@ Python का उपयोग इन क्षेत्रों में क�
 - मशीन लर्निंग
 - ऑटोमेशन
 - बैकएंड डेवलपमेंट
+
+# Chapter 3: Python Basics
+
+---
+
+## Q9. What are the Features of Python?
+
+### Answer (English)
+
+Python has many powerful features that make it popular among developers:
+
+1. Simple and Easy to Learn  
+2. High-Level Language  
+3. Interpreted Language  
+4. Platform Independent  
+5. Object-Oriented  
+6. Large Standard Library  
+7. Open Source  
+8. Dynamically Typed  
+
+Python’s simple syntax makes it beginner-friendly and powerful for professionals.
+
+---
+
+### उत्तर (Hindi)
+
+Python की कई महत्वपूर्ण विशेषताएँ हैं:
+
+1. सरल और सीखने में आसान  
+2. हाई-लेवल लैंग्वेज  
+3. इंटरप्रेटेड लैंग्वेज  
+4. प्लेटफॉर्म स्वतंत्र  
+5. ऑब्जेक्ट-ओरिएंटेड  
+6. बड़ी स्टैंडर्ड लाइब्रेरी  
+7. ओपन सोर्स  
+8. डायनेमिक टाइपिंग  
+
+इसका आसान syntax इसे शुरुआती और प्रोफेशनल दोनों के लिए उपयोगी बनाता है।
+
+---
+
+## Q10. What are the Applications of Python?
+
+### Answer (English)
+
+Python is widely used in many fields:
+
+1. Web Development (Django, Flask, FastAPI)  
+2. Data Science (Pandas, NumPy)  
+3. Machine Learning (Scikit-learn, TensorFlow)  
+4. Artificial Intelligence  
+5. Automation & Scripting  
+6. Game Development  
+7. Desktop Applications  
+8. Backend Development  
+
+---
+
+### उत्तर (Hindi)
+
+Python का उपयोग कई क्षेत्रों में किया जाता है:
+
+1. वेब डेवलपमेंट  
+2. डेटा साइंस  
+3. मशीन लर्निंग  
+4. आर्टिफिशियल इंटेलिजेंस  
+5. ऑटोमेशन  
+6. गेम डेवलपमेंट  
+7. डेस्कटॉप एप्लिकेशन  
+8. बैकएंड डेवलपमेंट
+
+---
+
+## Q11. How to Install Python?
+
+### Answer (English)
+
+Steps to install Python:
+
+1. Go to https://www.python.org  
+2. Download the latest version  
+3. Run the installer  
+4. Select “Add Python to PATH”  
+5. Click Install  
+
+To check installation:
+Open Command Prompt and type:
+
+python --version
+
+---
+
+### उत्तर (Hindi)
+
+Python इंस्टॉल करने के लिए:
+
+1. https://www.python.org पर जाएँ  
+2. नवीनतम संस्करण डाउनलोड करें  
+3. इंस्टॉलर चलाएँ  
+4. “Add Python to PATH” चुनें  
+5. Install पर क्लिक करें  
+
+जांच करने के लिए Command Prompt में लिखें:
+
+python --version
+
+---
+
+## Q12. Write Your First Python Program
+
+### Answer (English)
+
+Example:
+
+print("Hello, World!")
+
+This program prints “Hello, World!” on the screen.
+
+---
+
+### उत्तर (Hindi)
+
+उदाहरण:
+
+print("Hello, World!")
+
+यह प्रोग्राम स्क्रीन पर “Hello, World!” प्रदर्शित करता है।
+
+---
+
+## Q13. Explain Python Execution Model
+
+### Answer (English)
+
+Python follows this execution process:
+
+1. Source Code (.py file)
+2. Compilation into Bytecode (.pyc file)
+3. Execution by Python Virtual Machine (PVM)
+
+If there is a syntax error, the interpreter shows an error before execution.
+
+---
+
+### उत्तर (Hindi)
+
+Python का execution मॉडल इस प्रकार है:
+
+1. Source Code (.py फाइल)
+2. Bytecode में compilation
+3. Python Virtual Machine (PVM) द्वारा execution
+
+यदि syntax error होगा, तो interpreter पहले ही error दिखा देगा।
+
+# Chapter 4: Variables, Data Types and Operators
+
+---
+
+## Q14. What is a Variable in Python?
+
+### Answer (English)
+
+A variable is a name used to store data in memory.
+
+In Python, we do not need to declare the type of a variable. The type is assigned automatically based on the value.
+
+Example:
+
+x = 10  
+name = "Rahul"  
+price = 99.5  
+
+---
+
+### उत्तर (Hindi)
+
+Variable एक नाम होता है जो memory में data store करने के लिए उपयोग किया जाता है।
+
+Python में variable का type अलग से declare नहीं करना पड़ता। Value के आधार पर type अपने आप तय हो जाता है।
+
+उदाहरण:
+
+x = 10  
+name = "Rahul"  
+price = 99.5
+
+---
+
+## Q15. What are Data Types in Python?
+
+### Answer (English)
+
+Data types define the type of data a variable can hold.
+
+Main data types in Python:
+
+1. int – Integer values  
+2. float – Decimal numbers  
+3. str – Text/String  
+4. bool – True or False  
+
+Example:
+
+x = 10        # int  
+y = 10.5      # float  
+name = "Ram"  # string  
+is_active = True  # boolean  
+
+To check data type:
+
+type(x)
+
+---
+
+### उत्तर (Hindi)
+
+Data Type यह बताता है कि variable किस प्रकार का data store कर सकता है।
+
+Python के मुख्य data types:
+
+1. int – पूर्ण संख्या  
+2. float – दशमलव संख्या  
+3. str – टेक्स्ट  
+4. bool – True या False  
+
+उदाहरण:
+
+x = 10  
+y = 10.5  
+name = "Ram"  
+is_active = True  
+
+Type जानने के लिए:
+
+type(x)
+
+---
+
+## Q16. What is Input and Output in Python?
+
+### Answer (English)
+
+Input is used to take data from the user.  
+Output is used to display data on the screen.
+
+Example:
+
+name = input("Enter your name: ")
+print("Hello", name)
+
+---
+
+### उत्तर (Hindi)
+
+Input का उपयोग user से data लेने के लिए किया जाता है।  
+Output का उपयोग screen पर data दिखाने के लिए किया जाता है।
+
+उदाहरण:
+
+name = input("अपना नाम दर्ज करें: ")
+print("Hello", name)
+
+---
+
+## Q17. What is Type Conversion?
+
+### Answer (English)
+
+Type conversion means converting one data type into another.
+
+Example:
+
+x = "10"
+y = int(x)
+
+Common conversion functions:
+int()
+float()
+str()
+
+---
+
+### उत्तर (Hindi)
+
+Type Conversion का मतलब एक data type को दूसरे data type में बदलना होता है।
+
+उदाहरण:
+
+x = "10"
+y = int(x)
+
+सामान्य conversion functions:
+int()
+float()
+str()
+
+---
+
+## Q18. What are Operators in Python?
+
+### Answer (English)
+
+Operators are special symbols used to perform operations on variables and values.
+
+### Types of Operators:
+
+1. Arithmetic Operators  
+   +  -  *  /  %  **  
+
+2. Comparison Operators  
+   ==  !=  >  <  >=  <=  
+
+3. Logical Operators  
+   and  or  not  
+
+Example:
+
+x = 10
+y = 5
+
+print(x + y)
+print(x > y)
+print(x > 5 and y < 10)
+
+---
+
+### उत्तर (Hindi)
+
+Operators विशेष चिन्ह होते हैं जो variables पर operations करने के लिए उपयोग किए जाते हैं।
+
+### Operators के प्रकार:
+
+1. Arithmetic Operator  
+   +  -  *  /  %  **  
+
+2. Comparison Operator  
+   ==  !=  >  <  >=  <=  
+
+3. Logical Operator  
+   and  or  not  
+
+उदाहरण:
+
+x = 10
+y = 5
+
+print(x + y)
+print(x > y)
+print(x > 5 and y < 10)
