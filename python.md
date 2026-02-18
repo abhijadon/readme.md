@@ -93,3 +93,65 @@ Programming languages follow specific rules and syntax so that the computer can 
 हर प्रोग्रामिंग लैंग्वेज के अपने नियम (syntax) और संरचना होती है, जिससे कंप्यूटर उसे सही तरीके से समझकर execute कर सके।
 
 **उदाहरण:** Python, Java, C++, JavaScript
+
+
+# Chapter 2: Types of Programming Languages & Introduction to Python
+
+---
+
+## Q6. What are the Types of Programming Languages?
+
+### Answer (English)
+
+Programming languages are mainly classified into three types:
+
+### 1. Low-Level Language
+Low-level languages are closer to machine language and hardware.
+Examples:
+- Machine Language
+- Assembly Language
+
+They are fast but difficult for humans to understand.
+
+### 2. High-Level Language
+High-level languages are easy to read, write, and understand.
+They are closer to human language.
+
+Examples:
+- Python
+- Java
+- C++
+- JavaScript
+
+### 3. Middle-Level Language
+These languages have features of both low-level and high-level languages.
+
+Example:
+- C Language
+
+---
+
+### उत्तर (Hindi)
+
+प्रोग्रामिंग लैंग्वेज मुख्य रूप से तीन प्रकार की होती हैं:
+
+### 1. लो-लेवल लैंग्वेज
+ये हार्डवेयर और मशीन भाषा के करीब होती हैं।
+उदाहरण:
+- मशीन लैंग्वेज
+- असेंबली लैंग्वेज
+
+ये तेज होती हैं लेकिन समझने में कठिन होती हैं।
+
+### 2. हाई-लेवल लैंग्वेज
+ये पढ़ने और लिखने में आसान होती हैं।
+उदाहरण:
+- Python
+- Java
+- C++
+- JavaScript
+
+### 3. मिड-लेवल लैंग्वेज
+इनमें लो-लेवल और हाई-लेवल दोनों की विशेषताएँ होती हैं।
+उदाहरण:
+- C भाषा
